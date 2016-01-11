@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yahoo Weather API</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="myScript/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- // <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['line', 'corechart']}]}"></script> -->
+	<script src="myScript/script.js"></script>
+	<script src="Chart/Chart.js"></script>
+	<!-- // <script src="myScript/chart.js"></script> -->
+    <style  style="opacity:0.5">
+        body { background: url(./images/ZhGEqAP.jpg); }
+       
+    </style>
+</head>
+<body class="well">	
+	<div class="container-fluid">
+		<header style="color:white">
+			<h1>Yahoo Weather API</h1>
+		</header>
+		<br><br>
+		<div class="row">
+<!--Сайдбар-->
+			<div class="col-lg-3">
+				<input type="text" class="form-control places" placeholder="Enter city"/><br>
+  								
+				<div>
+					<input class="butn" type="button" value="Yahoo!">
+				</div>
+					
+			</div>	
+		<!--Контейнер-->
+			<div class="col-lg-9">
+				<div class="row">
+				<!--Таблица вывода-->
+					<div>
+						<table class="table table-bordered fst" style="opacity:0.9"></table>
+                        	</div><br>
+	
+					<div>
+						<table class="table table-bordered scd" style="opacity:0.9"></table>
+					</div>
+					<div> 
+						<canvas id="myChart" width="800" height="400"></canvas>
+					</div>					
+				</div>				
+			</div>
+
+			
+
+		</div>
+		
+		
+	</div>
+		
+</body>
+</html>

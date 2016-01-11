@@ -1,0 +1,4 @@
+Application name	ThirdLab
+API key           	337546dbb522d4f365962e5d0669c6b4
+Shared secret		1e88ccf3e476d4fc99015678b6f06293
+Registered to		DarkFireFenix
